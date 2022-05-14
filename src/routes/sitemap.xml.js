@@ -37,4 +37,4 @@ export async function get({params, url}) {
     },
     body: xml,
   };
-}
+};
