@@ -29,7 +29,7 @@
 
   <img class='s64' src='/icon.png' />
   
-  <dl>
+  <dl class='mb32'>
     {#each items as item}
       <dt>{item.key}</dt>
       <dd class='ml16'>
@@ -38,4 +38,9 @@
     {/each}
   </dl>
 
+  <footer>
+    <a class='text-blue' href='/sitemap.xml'>sitemap</a>
+  </footer>
+
 </div>
+
